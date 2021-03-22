@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac1f936f-1b23-40da-9e82-1bd8b8893e0d" name="Default Changelist" comment="" />
+    <list default="true" id="ac1f936f-1b23-40da-9e82-1bd8b8893e0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo/jdbc-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/main/java/com/lyd/jdbc/dao/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/main/java/com/lyd/jdbc/demo/TestOfConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/main/java/com/lyd/jdbc/demo/TestOfStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/main/java/com/lyd/jdbc/demo/TestOfTeacherDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-demo/src/main/java/com/lyd/jdbc/utils/DBHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,15 +37,12 @@
       </set>
     </option>
   </component>
-  <component name="JRebelWorkspace">
-    <option name="jrebelEnabledAutocompile" value="true" />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\repository" />
-        <option name="mavenHome" value="C:/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="C:\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="C:\maven\maven-repository" />
+        <option name="mavenHome" value="C:/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -53,6 +60,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -87,7 +95,59 @@
       <recent name="E:\mycode\share\liuyd_xa\basic\src\main\java\com\lyd\basic\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.XaTest">
+  <component name="RunManager" selected="Application.TestOfTeacherDAO">
+    <configuration name="Connection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyd.jdbc.utils.Connection" />
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyd.jdbc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOfConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyd.jdbc.demo.TestOfConnection" />
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyd.jdbc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOfStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyd.jdbc.demo.TestOfStatement" />
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyd.jdbc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOfTeacherDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyd.jdbc.demo.TestOfTeacherDAO" />
+      <module name="jdbc-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyd.jdbc.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyd.basic.xa.XaTest" />
       <module name="basic" />
@@ -101,32 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyd.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyd.basic.BasicApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="customer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyd.customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyd.customer.CustomerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="goods" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lyd.goods.GoodsApplication" />
@@ -136,9 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOfTeacherDAO" />
+        <item itemvalue="Application.TestOfStatement" />
+        <item itemvalue="Application.TestOfConnection" />
+        <item itemvalue="Application.Connection" />
         <item itemvalue="Application.XaTest" />
-        <item itemvalue="Spring Boot.CustomerApplication" />
-        <item itemvalue="Spring Boot.BasicApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +205,7 @@
       <workItem from="1616117603757" duration="3543000" />
       <workItem from="1616123235157" duration="15949000" />
       <workItem from="1616298397550" duration="23000" />
+      <workItem from="1616298850938" duration="7579000" />
     </task>
     <servers />
   </component>
@@ -176,9 +213,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="177" key="#Project_Structure" timestamp="1616117681690">
+    <state x="552" y="177" key="#Project_Structure" timestamp="1616313066112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="177" key="#Project_Structure/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616313066112" />
     <state x="552" y="177" key="#Project_Structure/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1615994127019" />
     <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1616117681690" />
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1616119080132">
@@ -190,28 +228,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="560" y="109" key="CommitChangelistDialog2/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1616298515383" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1615970267213">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1616298922958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616298922958" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615970267213" />
-    <state width="1876" height="349" key="GridCell.Tab.0.bottom" timestamp="1616167121238">
+    <state width="1921" height="289" key="GridCell.Tab.0.bottom" timestamp="1616314389386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1921" height="289" key="GridCell.Tab.0.bottom/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616314389386" />
     <state width="1876" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1616167121238" />
     <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616121153165" />
-    <state width="1876" height="349" key="GridCell.Tab.0.center" timestamp="1616167121238">
+    <state width="1921" height="289" key="GridCell.Tab.0.center" timestamp="1616314389386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1921" height="289" key="GridCell.Tab.0.center/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616314389386" />
     <state width="1876" height="349" key="GridCell.Tab.0.center/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1616167121238" />
     <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616121153165" />
-    <state width="1876" height="349" key="GridCell.Tab.0.left" timestamp="1616167121238">
+    <state width="1921" height="289" key="GridCell.Tab.0.left" timestamp="1616314389385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1921" height="289" key="GridCell.Tab.0.left/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616314389385" />
     <state width="1876" height="349" key="GridCell.Tab.0.left/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1616167121238" />
     <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616121153165" />
-    <state width="1876" height="349" key="GridCell.Tab.0.right" timestamp="1616167121238">
+    <state width="1921" height="289" key="GridCell.Tab.0.right" timestamp="1616314389386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1921" height="289" key="GridCell.Tab.0.right/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616314389386" />
     <state width="1876" height="349" key="GridCell.Tab.0.right/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1616167121238" />
     <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616121153165" />
     <state width="1876" height="349" key="GridCell.Tab.1.bottom" timestamp="1616167121239">
@@ -254,27 +297,31 @@
     </state>
     <state width="1876" height="342" key="GridCell.Tab.2.right/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1615996380578" />
     <state width="1858" height="342" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616046748608" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1616298448004">
+    <state x="461" y="151" key="SettingsEditor" timestamp="1616298928207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="461" y="151" key="SettingsEditor/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616298928207" />
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1616298448004" />
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615970269953" />
-    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1616298398523">
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1616298851196">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616298851196" />
     <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1616298398523" />
     <state x="636" y="256" width="1002" height="528" key="find.popup" timestamp="1616161782822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="256" width="1002" height="528" key="find.popup/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1616161782822" />
     <state x="636" y="256" width="1011" height="528" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616144303160" />
-    <state x="661" y="214" key="new project wizard" timestamp="1615970581830">
+    <state x="451" y="171" key="new project wizard" timestamp="1616299171301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="451" y="171" key="new project wizard/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616299171301" />
     <state x="661" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615970581830" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615993982755">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616304246245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1600.296.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1616304246245" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1600.296.1600.900@0.0.1920.1040" timestamp="1615993982755" />
   </component>
   <component name="XDebuggerManager">

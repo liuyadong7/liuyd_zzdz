@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="customer" />
+        <module name="jdbc-demo" />
         <module name="sys-api" />
         <module name="basic" />
         <module name="goods" />
