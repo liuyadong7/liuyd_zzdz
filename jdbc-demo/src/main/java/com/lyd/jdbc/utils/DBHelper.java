@@ -1,9 +1,6 @@
 package com.lyd.jdbc.utils;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 /**
  * <p>  </p>
@@ -57,6 +54,30 @@ public class DBHelper {
      * @since 2021/3/21 16:03
      */
     public static void closeJDBC(Statement statement, Connection connection) {
+        if (statement != null) {
+            try {
+                statement.close();
+            } catch (SQLException e) {
+                statement = null;
+            }
+        }
+        if (connection != null) {
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                connection = null;
+            }
+        }
+    }
+
+    public static void closeJDBC(ResultSet resultSet, Statement statement, Connection connection) {
+        if (resultSet != null) {
+            try {
+                resultSet.close();
+            } catch (SQLException e) {
+                resultSet = null;
+            }
+        }
         if (statement != null) {
             try {
                 statement.close();

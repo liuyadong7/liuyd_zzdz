@@ -1,10 +1,11 @@
 package com.lyd.jdbc.dao;
 
+import com.lyd.jdbc.pojo.Person;
 import com.lyd.jdbc.utils.DBHelper;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p> 人员的DAO - v1 </p>
@@ -112,5 +113,40 @@ public class PersonDAO {
         }
         return false;
     }
+
+    public List<Person> list() {
+
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+
+        try {
+            connection = DBHelper.getConnection();
+
+            preparedStatement = connection.prepareStatement("select * from person");
+
+            resultSet = preparedStatement.executeQuery();
+
+            List<Person> personList = new ArrayList<Person>();
+
+            while (resultSet.next()) {
+                Person person = new Person();
+                person.setId(resultSet.getInt("id"));
+                person.setName(resultSet.getString("name"));
+                person.setAge(resultSet.getInt("age"));
+                personList.add(person);
+            }
+
+            return personList;
+
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+        } finally {
+            DBHelper.closeJDBC(resultSet, preparedStatement, connection);
+        }
+
+        return null;
+    }
+
 
 }
