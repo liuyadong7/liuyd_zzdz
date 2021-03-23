@@ -14,7 +14,7 @@ public class TestOfConnection {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         // 加载驱动
         Class.forName("com.mysql.jdbc.Driver");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mysql?serverTimezone=UTC&characterEncoding=UTF-8&useUnicode=true&useSSL=false", "root", "123456");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/lyd_jdbc?serverTimezone=UTC&characterEncoding=UTF-8&useUnicode=true&useSSL=false", "root", "root");
 
         System.out.println(connection);
 

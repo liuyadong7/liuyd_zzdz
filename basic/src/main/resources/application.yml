@@ -12,9 +12,8 @@ spring:
       discovery:
         # 注册到 nacos 的指定 namespace，默认为 public
         namespace: publicRedisConfig
-        # Nacos 服务发现与注册配置，其中子属性 server-addr 指定 Nacos 服务器主机和端口
-        #        server-addr: 172.16.104.70:8848
-        server-addr: 172.16.100.87:8848
+          # Nacos 服务发现与注册配置，其中子属性 server-addr 指定 Nacos 服务器主机和端口
+          server-addr: 172.16.104.70:8848
         # Nacos认证信息
         username: nacos
         password: nacos

@@ -12,9 +12,8 @@ spring:
       discovery:
         # 注册到 nacos 的指定 namespace，默认为 public
         namespace: publicRedisConfig
-        # Nacos 服务发现与注册配置，其中子属性 server-addr 指定 Nacos 服务器主机和端口
-        #        server-addr: 172.16.104.70:8848
-        server-addr: 172.16.100.87:8848
+          # Nacos 服务发现与注册配置，其中子属性 server-addr 指定 Nacos 服务器主机和端口
+          server-addr: 172.16.104.70:8848
         # Nacos认证信息
         username: nacos
         password: nacos
@@ -55,7 +54,7 @@ spring:
   #redis 配置
   redis:
     database: 7
-    host: 172.16.100.82
+    host: 127.0.0.1
     lettuce:
       pool:
         max-active: 8   #最大连接数据库连接数,设 0 为没有限制
@@ -63,7 +62,7 @@ spring:
         max-wait: -1ms  #最大建立连接等待时间。如果超过此时间将接到异常。设为-1表示无限制。
         min-idle: 0     #最小等待连接中的数量,设 0 为没有限制
       shutdown-timeout: 100ms
-    password: 'redis@7302.com'
+    password:
     port: 7302
 knife4j:
   basic:
